@@ -7,7 +7,7 @@
 From a GitHub repository:
 
 ```sh
-dsh plugin --profile default add git+https://github.com/<your-name>/dsh-pianpian-ui.git
+dsh plugin --profile default add git+https://github.com/tdyangbo/PianpianUI.git
 ```
 
 From a local checkout:
@@ -58,3 +58,13 @@ git push -u origin main
 ```
 
 Then install it with the GitHub command above.
+
+## Update An Existing Install
+
+If the plugin was already installed before an update was pushed, remove and add it again:
+
+```sh
+dsh plugin --profile default remove dsh-pianpian-ui
+dsh plugin --profile default add git+https://github.com/tdyangbo/PianpianUI.git
+dsh web --profile default
+```

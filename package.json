@@ -32,7 +32,8 @@
       "patch": "cordis.patch.yml"
     },
     "client": {
-      "platform": "web"
+      "platform": "web",
+      "immediately": true
     }
   },
   "publishConfig": {

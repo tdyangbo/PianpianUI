@@ -1,2 +1,3 @@
-rows:
-  - locator: $import("dsh-pianpian-ui")
+- insert:
+    - id: pianpian-ui
+      name: dsh-pianpian-ui
