@@ -1,6 +1,6 @@
 # PianpianUI
 
-`PianpianUI` 是一个 DeepSeek Harness Web UI 插件。安装后，它会改变聊天主页面背样式，使用《哀鸿：城破十日记》中的角色林翩翩作为半透明背景，并保留正常聊天界面的可读性。
+`PianpianUI` 是一个 DeepSeek Harness Web UI 插件。安装后，它会改变聊天主页面样式，使用《哀鸿：城破十日记》中的角色林翩翩作为半透明背景，并保留正常聊天界面的可读性。
 
 ## 安装
 
