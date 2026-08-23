@@ -1,0 +1,41 @@
+{
+  "name": "dsh-pianpian-ui",
+  "version": "0.1.0",
+  "description": "A DeepSeek Harness UI plugin that adds pianpian.jpg as a translucent background.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.cjs",
+  "exports": {
+    ".": "./lib/index.cjs",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "assets/",
+    "docs/",
+    "lib/",
+    "cordis.patch.yml",
+    "PROMPT.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "ui",
+    "theme",
+    "background"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

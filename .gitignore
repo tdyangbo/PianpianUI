@@ -1,0 +1,7 @@
+node_modules/
+.npm-cache/
+/pianpian.jpg
+.DS_Store
+*.log
+*.tgz
+dist/
