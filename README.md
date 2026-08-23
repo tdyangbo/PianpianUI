@@ -49,7 +49,7 @@ dsh web
 
 ## 停用插件
 
-如果不想继续使用该 UI 插件，执行：
+如果想卸载 UI 插件，执行：
 
 ```sh
 dsh plugin --profile web remove dsh-pianpian-ui
