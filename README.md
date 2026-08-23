@@ -1,4 +1,4 @@
-# dsh-pianpian-ui
+# PianpianUI
 
 `dsh-pianpian-ui` is a DeepSeek Harness Web UI plugin. It uses `assets/pianpian.jpg` as a translucent chat-page background and keeps the normal chat workflow readable.
 
