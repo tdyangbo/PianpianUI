@@ -1,6 +1,6 @@
-# dsh-pianpian-ui
+# PianpianUI
 
-`dsh-pianpian-ui` 是一个 DeepSeek Harness Web UI 插件。安装后，它会改变聊天主页面的半透明背景，并保留正常聊天界面的可读性。
+`PianpianUI` 是一个 DeepSeek Harness Web UI 插件。安装后，它会改变聊天主页面的半透明背景，并保留正常聊天界面的可读性。
 
 ## 安装
 
