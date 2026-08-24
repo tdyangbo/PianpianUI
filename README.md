@@ -7,7 +7,7 @@
 使用 DSH 命令安装：
 
 ```sh
-dsh plugin --profile web add git+https://github.com/tdyangbo/PianpianUI.git
+dsh plugin --profile web add github:tdyangbo/PianpianUI
 ```
 
 启动 DSH Web UI：
@@ -44,7 +44,7 @@ dsh web
 
 ```sh
 dsh plugin --profile web remove dsh-pianpian-ui
-dsh plugin --profile web add git+https://github.com/tdyangbo/PianpianUI.git
+dsh plugin --profile web add github:tdyangbo/PianpianUI
 dsh web
 ```
 
