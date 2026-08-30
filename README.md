@@ -10,6 +10,12 @@
 dsh plugin --profile web add git+https://github.com/tdyangbo/PianpianUI.git
 ```
 
+或下载压缩包到本地并解压（例如，解压到E:\software\PianpianUI-main），从本地文件安装：
+
+```sh
+dsh plugin --profile web add file:E:\software\PianpianUI-main
+```
+
 启动 DSH Web UI：
 
 ```sh
