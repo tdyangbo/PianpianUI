@@ -1,6 +1,6 @@
 # PianpianUI for DeepSeek Harness
 
-`PianpianUI` 是一个 DeepSeek Harness Web UI 插件。安装后，它会改变聊天主页面样式，提供 `pianpian.jpg`、`sulianyan.jpg`、`pianhui.jpg` 三张可切换的半透明背景，并保留正常聊天界面的可读性。
+`PianpianUI` 是一个 DeepSeek Harness Web UI 插件。安装后，它会改变聊天主页面样式，提供 `pianpian.jpg`、`sulianyan.jpg`、`pianhui.jpg` 三张可切换的半透明背景，以及一个左右人物环绕回复区域的 `Duo` 样式。
 
 ## 安装
 
@@ -25,6 +25,7 @@ dsh web
 ## 安装后的效果
 
 - 聊天主页面会显示可切换的半透明背景。
+- `Duo` 样式会保留中间回复滚动区域的默认背景，并把 `sulianyan.jpg` 中间人物放在左侧、`pianpian.jpg` 中间人物放在右侧。
 - 侧边栏、输入框、按钮和聊天内容仍保持清晰可读。
 - 页面右下角会出现一个 `UI` 调节按钮。
 - 打开设置弹窗等非聊天页面时，调节按钮会自动隐藏。
@@ -35,7 +36,7 @@ dsh web
 
 - `Opacity`：调节图片透明度。向右拖动，图片更明显；向左拖动，图片更淡。
 - `Depth`：调节背景深度。向右拖动，背景更深、更有层次；向左拖动，界面更亮、更柔和。
-- `Background`：在 `Pianpian`、`Sulianyan`、`Pianhui` 三张背景之间切换。
+- `Background`：在 `Pianpian`、`Sulianyan`、`Pianhui` 三张整页背景和 `Duo` 左右人物样式之间切换。
 - `Reset`：恢复默认显示效果。
 
 调节结果会保存在当前浏览器中，刷新页面后仍会保留。
