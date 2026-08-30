@@ -1,7 +1,7 @@
 {
   "name": "dsh-pianpian-ui",
   "version": "0.1.0",
-  "description": "A DeepSeek Harness UI plugin with selectable translucent backgrounds.",
+  "description": "A DeepSeek Harness UI plugin that adds pianpian.jpg as a translucent background.",
   "license": "MIT",
   "type": "module",
   "main": "lib/index.cjs",
