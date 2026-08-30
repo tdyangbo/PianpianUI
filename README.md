@@ -17,6 +17,7 @@ dsh web
 ```
 
 如果页面仍显示旧效果，请在浏览器中按 `Ctrl + F5` 强制刷新。
+
 ## 效果预览
 
 ![PianpianUI 效果预览](demo.png)
@@ -38,6 +39,16 @@ dsh web
 - `Reset`：恢复默认显示效果。
 
 调节结果会保存在当前浏览器中，刷新页面后仍会保留。
+
+## 背景图片位置
+
+插件内置背景图片放在 `assets` 文件夹：
+
+- `assets/pianpian.jpg`
+- `assets/sulianyan.jpg`
+- `assets/pianhui.jpg`
+
+如果要替换成自己的图片，请使用相同文件名覆盖对应图片，然后重新提交并安装插件。
 
 ## 更新插件
 
